@@ -7,4 +7,6 @@ print(string.capitalize())
 
 if string[0].islower():
     char = string[0].upper()
-    print(char)
+    print(char + string[1:])
+else:
+    print(string)
