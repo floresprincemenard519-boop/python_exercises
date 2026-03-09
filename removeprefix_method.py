@@ -4,6 +4,6 @@ prefix_to_remove = "   W"
 print(string.removeprefix('   W'))
 
 # same functionality without using removeprefix()
-# find the index to remove and exclude it fromt the string
+# find the index to remove and exclude it from the string
 string = string[len(prefix_to_remove):]
 print(string)
