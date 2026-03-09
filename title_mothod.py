@@ -1,11 +1,11 @@
-string = " i am a title of a book"
+string = "i am a title of a book"
 
 # how title() method works
 # print(string.title())
 
 # how title() method works with title() method
 for char in string:
-    if string[string.index(char)-1] == " ":
+    if string[string.index(char)-1] == " " or string.index(char) == 0:
         print(char.upper(), end="")
     else:
         print(char, end="")
