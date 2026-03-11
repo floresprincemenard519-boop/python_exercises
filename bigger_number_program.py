@@ -5,4 +5,7 @@ second_number = float(input("Give me another number: "))
 if first_number > second_number:
 # print bigger number 
     print(f"The bigger number is {first_number}.")
-
+elif second_number > first_number:
+    print(f"The bigger number is {second_number}.")
+else:
+    print(f"The numbers are equal.")
