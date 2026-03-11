@@ -3,5 +3,9 @@
 
 string = "What a beautiful world! Helloooooo!    "
 
-for index in range(len(string), 0, -1):
-    print(index)
+for index in range(len(string)-1, -1, -1):
+    if string[index] == ' ':
+        print('', end='')
+    elif string[index] == ' ':
+        break
+    print(string[index], end='')
