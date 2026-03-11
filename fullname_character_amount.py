@@ -1,2 +1,2 @@
-# get the fullname
-# print the length of the string
+fullname = input("Please input your fullname: ")
+print(len(fullname))
