@@ -1,2 +1,3 @@
-# get the fullname
-# print the name in porper casing 
+fullname = input("Please input your full name with random casing: ")
+
+print(fullname.title())
