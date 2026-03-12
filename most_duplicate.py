@@ -3,6 +3,8 @@
 # get the highest num of duplicates
 # print the number not the count
 list = {}
+highest_number = 0
+highest_count = 0
 while True:
     try:
         numbers = float(input("Please input a number: "))
